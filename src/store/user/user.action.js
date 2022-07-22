@@ -28,8 +28,8 @@ export const signUpStart = (email, password, displayName) =>
     displayName,
   });
 
-export const signUpSuccess = (user, additionalDetails) =>
-  createAction(USER_ACTION_TYPES.SIGN_UP_SUCCESS, { user, additionalDetails });
+export const signUpSuccess = (user) =>
+  createAction(USER_ACTION_TYPES.SIGN_UP_SUCCESS, { user });
 
 export const signUpFailed = (error) =>
   createAction(USER_ACTION_TYPES.SIGN_UP_FAILED, error);

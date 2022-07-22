@@ -1,10 +1,11 @@
-import { takeLatest, put, all, call, take } from "redux-saga/effects";
+import { takeLatest, put, all, call } from "redux-saga/effects";
 
 import { USER_ACTION_TYPES } from "./user.types";
 
 import {
   signInSuccess,
   signInFailed,
+  signUpSuccess,
   signUpFailed,
   signOutSuccess,
   signOutFailed,
@@ -19,13 +20,9 @@ import {
   signOutUser,
 } from "../../utils/firebase/firebase.utils";
 
-export function* getSanpshotFromUserAuth(userAuth, additionalDetails) {
+export function* getSanpshotFromUserAuth(userAuth) {
   try {
-    const userSnapshot = yield call(
-      createUserDocumentFromAuth,
-      userAuth,
-      additionalDetails
-    );
+    const userSnapshot = yield call(createUserDocumentFromAuth, userAuth);
     yield put(signInSuccess({ id: userSnapshot.id, ...userSnapshot.data() }));
   } catch (error) {
     yield put(signInFailed(error));
@@ -71,14 +68,14 @@ export function* signUp({ payload: { email, password, displayName } }) {
       email,
       password
     );
-    yield put(signInSuccess(user, { displayName }));
+    yield put(signUpSuccess({ ...user, displayName }));
   } catch (error) {
     yield put(signUpFailed(error));
   }
 }
 
-export function* signInAfterSignUp({ payload: { user, additionalDetails } }) {
-  yield call(getSanpshotFromUserAuth, user, additionalDetails);
+export function* signInAfterSignUp({ payload: { user } }) {
+  yield call(getSanpshotFromUserAuth, user);
 }
 
 export function* signOut() {
