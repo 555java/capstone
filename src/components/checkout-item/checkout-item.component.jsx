@@ -24,7 +24,7 @@ const CheckoutItem = ({ cartItem }) => {
       <div className="image-container">
         <img src={imageUrl} alt={`${name}`} />
       </div>
-      <span className="name">{name}</span>
+      <div className="name">{name}</div>
       <div className="quantity">
         <div className="arrow" onClick={removeItemHandler}>
           &#10094;
@@ -34,7 +34,7 @@ const CheckoutItem = ({ cartItem }) => {
           &#10095;
         </div>
       </div>
-      <span className="price">{price}$</span>
+      <div className="price">{price}$</div>
       <div className="remove-button" onClick={clearItemHandler}>
         &#10005;
       </div>

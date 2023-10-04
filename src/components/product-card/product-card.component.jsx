@@ -13,17 +13,17 @@ const ProductCard = ({ product }) => {
   const addProductToCart = () => dispatch(addItemToCart(cartItems, product));
   return (
     <div className="product-card-container">
-      <img src={imageUrl} alt={`${name}`} />
-      <div className="footer">
-        <span className="name">{name}</span>
-        <span className="price">{price}</span>
-      </div>
+      <img src={imageUrl} alt={`${name}`} />{" "}
       <Button
         onClick={addProductToCart}
         buttonType={BUTTON_TYPE_CLASSES.inverted}
       >
         Add to cart
       </Button>
+      <div className="footer">
+        <span className="name">{name}</span>
+        <span className="price">{price}</span>
+      </div>
     </div>
   );
 };

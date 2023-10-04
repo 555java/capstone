@@ -1,11 +1,25 @@
+$layout-breakpoint-medium: 480px;
+$layout-breakpoint-large: 768px;
 .category-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 20px;
-  row-gap: 50px;
+  row-gap: 30px;
 }
 .category-title {
-  font-size: 38px;
+  font-size: 28px;
   margin-bottom: 25px;
+  margin-top: 0px;
   text-align: center;
+}
+
+@media (min-width: $layout-breakpoint-medium) {
+  .category-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: $layout-breakpoint-large) {
+  .category-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

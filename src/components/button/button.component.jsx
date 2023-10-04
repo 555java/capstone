@@ -1,6 +1,5 @@
 import {
   BaseButton,
-  GoogleSignIn,
   GoogleSignInButton,
   InvertedButton,
   ButtonSpinner,

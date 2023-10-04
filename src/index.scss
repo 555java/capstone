@@ -1,11 +1,19 @@
 body {
   margin: 0;
   padding: 20px 40px;
+  min-width: 300px;
+  justify-content: center;
   font-family: "Saira Semi Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
