@@ -1,75 +1,29 @@
-### This project was done as a part of developer bootcamp, you can check the website here : https://hilarious-youtiao-5e7f15.netlify.app/
+ This project was done as a part of developer bootcamp, you can check the website here : 
+ https://hilarious-youtiao-5e7f15.netlify.app/
+
+This project is clothing store consisting of main page with all categories, page with previewa of each category, specific category pages, checkout and sign in.
+<img width="1135" alt="image" src="https://github.com/555java/capstone/assets/60987187/ecfe8765-63e7-45d6-96d1-689e306092da">
+<img width="1340" alt="image" src="https://github.com/555java/capstone/assets/60987187/efa40cce-ebd9-4099-a9b0-d66fc439cc64">
+
+It works as for desktop, as for mobile
+
+
+<img width="390" alt="image" src="https://github.com/555java/capstone/assets/60987187/ac541eeb-dda6-448a-b9b7-bf52d7a9c8f9">
+<img width="391" alt="image" src="https://github.com/555java/capstone/assets/60987187/44f60bb3-3090-432a-9b67-4a9040db208f">
+<img width="487" alt="image" src="https://github.com/555java/capstone/assets/60987187/78cf71a4-5416-484f-a9db-2db1f629add8">
+
+
+Here were used the technologies of Google Firebase to save the data about users and products and Stripe functionality to test the chechout possibilities
+
+<img width="1352" alt="image" src="https://github.com/555java/capstone/assets/60987187/e59f53e3-d76d-4fbd-a2b3-c3d0d8394fe5">
+
+
+<img width="1346" alt="image" src="https://github.com/555java/capstone/assets/60987187/0ec0bcff-a63a-44dd-8127-ba2f363b5b94">
+<img width="486" alt="image" src="https://github.com/555java/capstone/assets/60987187/ded7c1da-05d6-4993-8a65-7fb0e79952d5">
+<img width="1352" alt="image" src="https://github.com/555java/capstone/assets/60987187/60062661-bba4-45f0-9a29-5a66352d7910">
 
 
 
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
