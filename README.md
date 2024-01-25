@@ -27,7 +27,7 @@ This project is <b>clothing store</b> consisting of:<br/><br/>
 
 <h3>Technologies</h3>
 <hr/>
- <b>This project was done with EJS, SASS, HTML, JS, and different npm packages.</b><p/>
+ <b>This project was done with SCSS, HTML, JS, React, Redux, Redux-Saga and different npm packages.</b><p/>
 
 
  
